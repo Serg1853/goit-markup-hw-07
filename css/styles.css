@@ -61,6 +61,7 @@ button {
   .address {
     display: none;
   }
+
   .mobile-menu-open-btn {
     border: none;
     margin: 0;
@@ -153,6 +154,34 @@ button {
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid tomato;
+}
+
+.current {
+  color: #404bbf;
+}
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 0;
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-studio {
+  color: var(--primary-text-color);
 }
 /* HERO */
 .hero {
@@ -392,15 +421,7 @@ button {
 .footer-logo-block {
   text-align: center;
 }
-.logo-footer {
-  color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
 .footer-logo {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -649,7 +670,30 @@ button {
 
     .footer {
       display: flex;
+      flex-wrap: wrap;
+      width: 552px;
       align-items: baseline;
+    }
+    .footer-logo-block {
+      /* display: inline; */
+    }
+    .footer-text {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .footer-social {
+      margin: 0;
+    }
+    .footer-subscribe-text {
+      margin-top: 0;
+      text-align: start;
+    }
+    .footer-form-subscribe {
+      display: flex;
+      column-gap: 24px;
+    }
+    .footer-form-subscribe-input {
+      width: 264px;
     }
   }
 
@@ -805,34 +849,6 @@ button {
   }
 
   /* Customers */
-}
-
-.current {
-  color: #404bbf;
-}
-.page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.page-header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.logo {
-  margin-right: 76px;
-  color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.logo-studio {
-  color: var(--primary-text-color);
 }
 
 /* section hero */
