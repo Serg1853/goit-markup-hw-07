@@ -71,6 +71,10 @@ button {
   }
   .mobile-menu-container {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     padding-top: 80px;
     padding-left: 40px;
     padding-bottom: 40px;
@@ -105,7 +109,6 @@ button {
     pointer-events: auto;
   }
   .mobile-menu-list {
-    margin-bottom: 250px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -386,11 +389,6 @@ button {
 
 /* footer */
 
-/* .footer {
-  display: flex;
-  align-items: baseline;
-} */
-
 .footer-logo-block {
   text-align: center;
 }
@@ -651,7 +649,6 @@ button {
 
     .footer {
       display: flex;
-      flex-wrap: wrap;
       align-items: baseline;
     }
   }
@@ -738,6 +735,13 @@ button {
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/images-desktop/people-office@2x.jpg);
+    }
+
+    /* footer */
+
+    .footer {
+      display: flex;
+      align-items: baseline;
     }
   }
 
