@@ -75,7 +75,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    height: 100%;
     padding-top: 80px;
     padding-left: 40px;
     padding-bottom: 40px;
@@ -681,7 +681,6 @@ button {
     }
     .footer-logo-block {
       margin-right: 24px;
-      /* display: inline; */
     }
     .footer-text {
       margin-left: 0;
