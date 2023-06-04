@@ -668,13 +668,19 @@ button {
 
     /* footer */
 
+    .logo {
+      margin-right: 76px;
+    }
+
     .footer {
       display: flex;
       flex-wrap: wrap;
-      width: 552px;
+
+      /* width: 552px; */
       align-items: baseline;
     }
     .footer-logo-block {
+      margin-right: 24px;
       /* display: inline; */
     }
     .footer-text {
@@ -785,7 +791,17 @@ button {
 
     .footer {
       display: flex;
+      width: 100%;
       align-items: baseline;
+    }
+    .footer-logo-block {
+      margin-right: 120px;
+    }
+    .footer-text-social {
+      text-align: start;
+    }
+    .footer-social {
+      margin-right: 80px;
     }
   }
 
