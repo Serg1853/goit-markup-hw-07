@@ -1042,6 +1042,9 @@ button {
   .filters-images {
     width: 100%;
   }
+  .features-menu {
+    width: 100%;
+  }
 }
 
 .button-hover:focus,
