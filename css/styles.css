@@ -62,7 +62,9 @@ button {
   .address {
     display: none;
   }
-
+  .page-nav .logo {
+    margin-right: 0;
+  }
   .mobile-menu-open-btn {
     border: none;
     margin: 0;
@@ -118,10 +120,15 @@ button {
     text-transform: capitalize;
     color: #2e2f42;
   }
+  .menu-link {
+    color: #2e2f42;
+  }
   .mobile-menu-list .mobile-menu-item:not(:last-child) {
     margin-bottom: 40px;
   }
-
+  .mobile-contact {
+    margin-bottom: 48px;
+  }
   .mobile-contact-tel {
     margin-bottom: 40px;
     font-weight: 700;
@@ -136,7 +143,7 @@ button {
       font-size: 26px;
     }
     .mobile-social-list {
-      gap: 30px;
+      column-gap: 30px;
     }
   }
   .mobile-address-link {
@@ -148,13 +155,13 @@ button {
   }
   .mobile-social-list {
     display: flex;
-    justify-content: center;
-    gap: 56px;
-    margin-top: 48px;
   }
   @media screen and (max-width: 427px) {
     .mobile-social-list {
       gap: 30px;
+    }
+    .container .hero-title {
+      font-size: 30px;
     }
   }
   .mobile-menu-open-btn-icon {
@@ -169,7 +176,7 @@ button {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 .current {
@@ -205,6 +212,7 @@ button {
 /* HERO */
 .hero {
   padding-top: 112px;
+  padding-bottom: 112px;
   background: #2e2f42;
 }
 .overlay {
@@ -240,7 +248,7 @@ button {
   height: 80px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
   color: #ffffff;
   font-weight: 700;
   font-size: 36px;
@@ -258,6 +266,7 @@ button {
   align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
+  margin-top: 72px;
   margin-left: auto;
   margin-right: auto;
   background: var(--primary-bg-button);
@@ -443,6 +452,9 @@ button {
   text-align: center;
 }
 
+.logo-footer {
+  margin-right: 0;
+}
 .footer-logo {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -594,6 +606,9 @@ button {
     padding-top: 0;
     padding-bottom: 0;
   }
+  .page-nav .logo {
+    margin-right: 72px;
+  }
   .page-nav {
     display: flex;
     align-items: center;
@@ -707,16 +722,13 @@ button {
       margin-right: 0;
     }
 
-    .footer {
-      display: flex;
-      width: 552px;
-      gap: 72px 24px;
-      flex-wrap: wrap;
-      align-items: baseline;
-    }
     .footer-logo-block {
+      text-align: start;
       margin-right: 24px;
       margin-bottom: 0;
+    }
+    .footer-text-social {
+      text-align: start;
     }
     .footer-text {
       margin-left: 0;
@@ -735,6 +747,7 @@ button {
     }
     .footer-form-subscribe-input {
       width: 264px;
+      margin-bottom: 0;
     }
   }
 
