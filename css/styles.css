@@ -678,7 +678,6 @@ button {
   .hero-title {
     max-width: 496px;
     height: 120px;
-    margin-bottom: 48px;
     font-size: 56px;
     line-height: 1.07;
   }
@@ -858,8 +857,10 @@ button {
     .our-team-list {
       width: 100%;
     }
+
     /* footer */
   }
+
   .footer {
     display: flex;
     width: 100%;
@@ -901,7 +902,9 @@ button {
   .features-menu .icon {
     display: flex;
   }
-
+  .features-menu .features-list:not(:last-child) {
+    margin-bottom: 0;
+  }
   .features-list {
     flex-basis: calc((100% - 3 * 24px) / 4);
   }
